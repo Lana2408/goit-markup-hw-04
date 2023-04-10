@@ -45,19 +45,13 @@ img {
 
 .header {
     border-bottom: 1px solid var(--border-color);
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1440px;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .section {
-    max-width: 1440px;
     padding-top: 120px;
     padding-bottom: 120px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .container {
@@ -198,6 +192,7 @@ img {
     background-color: var(--primary-color);
     color: #ffffff;
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover,
@@ -229,12 +224,6 @@ img {
 
 
 }
-
-.features-icon-item {
-    display: block;
-    margin: 0 auto;
-}
-
 
 .features-title {
     margin-bottom: 8px;
@@ -385,7 +374,7 @@ img {
 
 .customers-link:hover,
 .customers-link:focus {
-    border: solid 1px var(--hover-color);
+    border-color: var(--hover-color);
     color: var(--hover-color);
 }
 
@@ -395,8 +384,6 @@ img {
 
 
 .footer {
-    max-width: 1440px;
-    margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: var(--dark-color);
